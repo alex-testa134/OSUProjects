@@ -1,0 +1,14 @@
+WHILE true DO
+  move
+  IF next-is-wall THEN
+  END IF
+  IF this-is-not-a-valid-condition THEN
+    turnleft
+    infect
+  ELSE
+    go-for-it
+    turnright
+    look-for-something
+  END IF
+  skip
+END WHILE
